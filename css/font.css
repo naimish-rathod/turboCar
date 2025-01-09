@@ -1,0 +1,16 @@
+@font-face{
+	font-family: circularStd;
+	src: url(../font/circular-std-medium-500.ttf) format('truetype');
+	font-weight: normal;
+	font-style: normal;
+}
+
+@font-face{
+	font-family: circularStdL;
+	src: url(../font/CircularStd-Light.otf) format('truetype');
+	font-style: normal;
+}
+@font-face {
+	font-family: inter;
+	src: url(../font/Inter.ttf);
+}

@@ -1,0 +1,137 @@
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+p{
+	margin: 0;
+}
+:root {
+	--bg-blue : #4276f4;
+	--col-wh : #ffffff;
+}
+.bg-col {
+	background-color: var(--bg-blue);
+}
+.nav-itm li a{
+	color: var(--col-wh);
+	font-family: 'circularStdL';
+}
+.nav-item a:hover{
+	 color: #b7b2b2;
+}
+.nav-itm {
+	border: 1px solid white;
+    padding: 5px;
+    border-radius: 32px;
+    gap: 16px;
+}
+.sign-up-btn {
+	background-color: var(--col-wh);
+    color: var(--bg-blue);
+    font-family: 'circularStd';
+    border: none;
+    padding: 10px;
+    border-radius: 26px;
+    width: 115px;
+}
+.banner-body {
+	background-color: var(--bg-blue);
+	border-radius: 0 0 20px 20px !important;
+	height: 100%;
+}
+ .banner {
+ 	padding-top: 0px;
+ }
+.my-container {
+	width: 100%;
+	padding: 20px 20px 0 20px;
+}
+.radius {
+	border-radius: 20px;
+}
+.nav-header {
+	border-radius: 20px 20px 0px 0px;
+}
+.hero-img{
+	background: url(../img/Background.png) no-repeat center;
+	width: 100%;
+	height: auto;
+	position: relative;
+ }
+.sell-car-div p{
+ 	font-family: 'circularStdL';
+    color: var(--col-wh);
+    font-size: 1rem;
+    letter-spacing: 1px;
+   
+ }
+ .sell-car-div p:first-child{
+ 	font-size: 4rem;
+ 	font-weight: bold;
+ 	font-family: 'circularStd';
+ }
+.sell-car-div {
+	padding-top: 8rem;
+}
+.banner-body{
+	background: url(../img/Mask group.png);
+	background-repeat: no-repeat;
+	height: 500px;
+	width: 100%;
+}
+.banner-body {
+	height: 900px;
+}
+.bnr-text-input {
+	width: 45rem;
+    height: 70px;
+    padding: 15px;
+    background: linear-gradient(90.1deg, rgba(255, 255, 255, 0.9) -83.28%, rgba(255, 255, 255, 0.5) 99.91%);
+    border: 2px solid #ffffff;
+    border-radius: 38px;
+    color: white;
+}
+::placeholder{
+	font-family: 'circularStdL';
+	font-weight: bold;
+	color: white;
+	font-size: 20px;
+	padding-left: 20px;
+}
+.get-btn{
+	border-radius: 38px;
+    border: 1px solid #000000;
+    background: #FFF250;
+    position: absolute;
+    top: 48%;
+    right: 27%;
+    padding: 13px 42px 13px;
+}
+.input-grup {
+
+}
+.bnr-text-input {
+
+}
+.backside-card-1{
+	padding-top: 50px;
+}
+.card-body-1 {
+	background-color: var(--col-wh);
+	text-align: center;
+    border-radius: 17px;
+    padding: 31px 15px;;
+}
+.card-body-1 p{
+	font-family: 'inter';
+}
+.invoice {
+	background-color: #F8FAFB;
+	padding: 10px;
+
+}
+.invoice-align {
+	display: flex;
+    justify-content: space-between;
+}
