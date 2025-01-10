@@ -9,6 +9,7 @@
 	<script src="bootstrap/js/bootstrap.bundle.min.js"></script>
 	<link rel="stylesheet" type="text/css" href="css/style.css">
 	<link rel="stylesheet" type="text/css" href="css/font.css">
+	<link rel="stylesheet" type="text/css" href="css/responsive.css">
 </head>
 <body>
 <!-- Header -->

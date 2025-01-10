@@ -9,6 +9,17 @@ p{
 :root {
 	--bg-blue : #4276f4;
 	--col-wh : #ffffff;
+	--col-gray : #666D80;
+	--col-blk : #0D0D12
+}
+/* =============================== 
+		  Banner Section
+================================= */
+.custom-bg {
+    background: 
+        url('../img/maskgroup.png') no-repeat top -47% center,
+        url('../img/Background.png') no-repeat bottom center;
+        background-size: auto,100% 100%;
 }
 .bg-col {
 	background-color: var(--bg-blue);
@@ -42,6 +53,8 @@ p{
 }
  .banner {
  	padding-top: 0px;
+ 	overflow: hidden;
+ 	margin-bottom: 20px;
  }
 .my-container {
 	width: 100%;
@@ -99,39 +112,185 @@ p{
 	font-size: 20px;
 	padding-left: 20px;
 }
+.input-grup {
+	position: relative;
+    display: inline-block;
+}
 .get-btn{
 	border-radius: 38px;
     border: 1px solid #000000;
     background: #FFF250;
     position: absolute;
     top: 48%;
-    right: 27%;
+    right: 1%;
     padding: 13px 42px 13px;
 }
-.input-grup {
-
-}
-.bnr-text-input {
-
-}
 .backside-card-1{
-	padding-top: 50px;
+	padding:10rem 0 0 0;
 }
 .card-body-1 {
 	background-color: var(--col-wh);
 	text-align: center;
     border-radius: 17px;
-    padding: 31px 15px;;
+    padding: 31px 20px;
+    width: 340px;
 }
 .card-body-1 p{
 	font-family: 'inter';
 }
 .invoice {
 	background-color: #F8FAFB;
-	padding: 10px;
-
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    margin-top: 30px;
 }
 .invoice-align {
 	display: flex;
     justify-content: space-between;
+    gap: 20px;
+}
+.invoice-btn {
+	width: 50%;
+    color: white;
+    height: 40px;
+    font-size: 10px;
+    border-radius: 8px;
+}
+.share-btn{
+	color: var(--col-blk);
+    border: 2px solid #DFE1E7;
+}
+.share-btn:hover{
+	border: 2px solid #DFE1E7;
+}
+.dwn-btn {
+	background-color: var(--col-blk);
+	color: var(--col-wh);
+}
+.dwn-btn:hover {
+	background-color: var(--col-blk);
+	color: var(--col-wh);
+}
+.inv-txt-col {
+	color: var(--col-gray);
+}
+.inv-btn {
+	font-family: 'inter';
+	gap: 10px;
+}
+.num-col {
+	color: var(--col-blk);
+}
+.inv-dtl-col {
+	color: #818898;
+}
+.outline {
+	background-color: rgba(255, 255, 255, 0.2);
+	padding: 10px;
+	border: 1px solid white;
+    border-radius: 17px;
+}
+.invoice-align p:first-child{
+	font-size: 12px;
+}
+.invoice-align p:last-child{
+	font-size: 13px;
+}
+.inv-dol p:first-child{
+	font-size: 10px;
+}
+.inv-dol p:last-child{
+	font-size: 10px;
+	text-decoration: underline;
+}
+.dol-txt {
+	font-size: 25px;
+}
+.card-body-2 {
+	background-color: var(--col-wh);
+	border-radius: 17px;
+	padding: 20px 20px 0 ;
+
+}
+.seller {
+	padding: 10px;
+    border-radius: 40px;
+    background-color: #EDF1F9;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.backside-card-2 {
+	padding: 6rem 0 0 0;
+}
+.seller-div {
+	display: flex;
+}
+.seller-txt {
+	font-family: 'inter';
+	color: var(--col-gray);
+}
+.seller-txt span {
+	color: var(--col-blk);
+	font-weight: 500;
+}
+.kia-txt {
+	font-family: 'inter';
+	color: var(--col-blk);
+	font-size: 1.5em;
+	display: flex;
+	justify-content: space-between;
+}
+.kia-txt p:last-child {
+	font-weight: 500;
+}
+.elipse-bfr::before {
+	content: '|';
+	color: #D7D7D7;
+	padding: 0 6px;
+}
+.newyork-txt {
+	font-family: 'inter';
+	display: flex;
+	color: var(--col-gray);
+	font-size: 14px;
+}
+.newyork-txt img{
+	margin-bottom: 3px;
+}
+.cards {
+	display: flex;
+	justify-content: space-around;
+	box-sizing: border-box;
+}
+.vin-txt {
+	background-color: #F8FAFB;
+    padding: 10px;
+    border-radius: 10px;
+    margin-top: 15px;
+    font-size: 0.7em;
+}
+.offer-div {
+	display: flex;
+    flex-direction: column;
+    gap: 10px;
+    padding-top: 18px;
+}
+.wig-600 {
+	font-weight: 600;
+}
+/* =============================== 
+		  Review Section
+================================= */
+.review {
+	background-color: #F8F8F8;
+	padding: 80px 0;
+}
+.rvu-txt {
+	font-family: circularStdL;
+	color: var(--col-gray);
+	font-weight: 900;
+	letter-spacing: 1px;
 }

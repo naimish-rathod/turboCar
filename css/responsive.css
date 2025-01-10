@@ -1,0 +1,6 @@
+/*Media for medium screen*/
+@media only screen and (max-width: 1024px) { 
+	.banner-body {
+		height: 100%;
+	}
+}
