@@ -1,6 +1,204 @@
-/*Media for medium screen*/
+/* ==================================
+		Media for medium screen
+===================================*/
 @media only screen and (max-width: 1024px) { 
+/* ==================================
+		Banner section
+===================================*/
 	.banner-body {
 		height: 100%;
+	}
+	.cards {
+		flex-wrap: wrap;
+	}
+	.backside-card-1 {
+  		  padding: 5.5rem 0 0 0;
+	}
+	.card-3{
+		padding-bottom: 1rem;
+	}
+	.get-btn {
+		padding: 13px 25px 13px;
+	}
+	.bnr-text-input {
+   		width: 41rem;
+   	}
+   	.custom-bg {
+    	background: url(../img/maskgroup.png) no-repeat top -18% center,
+    	 url(../img/Background.png) no-repeat bottom center;
+   	 	background-size: auto, 100% 100%;
+	}
+	.banner-body {
+    	background-color: var(--bg-blue);
+    }
+    .sign-up-div {
+    	display: none;
+    }
+    .navbar-toggler-icon {
+    	background-image: url(../img/hamburg.png);
+    	width: 2em;
+    	height: 2em;
+    }
+    .navbar-toggler {
+    	border: none;
+    	padding: 2px;
+    }
+    .navbar-toggler:focus {
+	   	box-shadow: 0 0 8px var(--bs-navbar-toggler-focus-width) white;
+	    border-radius: 50%;
+	}
+	.nav-itm {
+		margin: 15px 35px 0 35px;
+		align-items: center;
+		gap: 4px;
+	}
+	.nav-itm li a {
+    	font-size: 20px;
+	}
+	.nav-itm li:first-child{
+		padding-left: 0 !important;
+	}
+	.nav-itm li:last-child{
+		padding-right: 0 !important;
+	}
+	.sign-up {
+		display: unset;
+	}
+}
+
+/* ==================================
+		Media for tablet
+===================================*/
+@media only screen and (max-width: 768px) {
+/* ==================================
+		Banner section
+===================================*/
+	.sell-car-div p:first-child {
+	    font-size: 3.3rem;
+	}
+	.sell-car-div p {
+    	font-size: 0.8em;
+	}
+	.custom-bg {
+        background: url(../img/maskgroup.png) no-repeat top -11% center, url(../img/Background.png) no-repeat bottom center;
+        background-size: auto, 100% 100%;
+    }
+	.banner-body {
+    	background-color: var(--bg-blue);
+    }
+    .get-btn {
+        padding: 13px 11px 13px;
+    }
+    .bnr-text-input {
+        width: 33rem;
+    }
+}
+/* ==================================
+		Media for mobile phone
+===================================*/
+
+@media only screen and (max-width: 375px) {
+/* ==================================
+		Banner section
+===================================*/
+	.navbar-brand {
+		padding-left: 1rem !important;
+	}
+	.navbar-brand img{
+		width: 106px;
+	}
+	.navbar-toggler-icon {
+        width: 1.6em;
+        height: 1.6em;
+    }
+    .navbar-toggler {
+    	margin-right: 1rem !important;
+    }
+    .sell-car-div p:first-child {
+        font-size: 1.8rem;
+    }
+    .desc-txt {
+        font-size: 14px !important;
+        padding: 0px 17px;
+    }
+    ::placeholder{
+		font-size: 12px;
+		padding-left: 0;
+	}
+	.bnr-text-input {
+        width: 18rem;
+        height: 43px;
+    }
+    .input-grup {
+    	padding-top: 1.5rem !important;
+    }
+    .get-btn {
+    	top: 45%;
+    	right: 2%;
+    	padding: 9px 9px 9px;
+    	font-size: 8px;
+    }
+    .bnr-text-input {
+    	padding-top: 10px;
+    }
+    .sell-car-div{
+    	padding-top: 2rem;
+    }
+    .custom-bg {
+        background: url(../img/maskgroup.png) no-repeat top -26% center, url(../img/Background.png) no-repeat bottom center;
+        background-size: auto, 100% 100%;
+    }
+    .banner-body {
+    	background-color: var(--bg-blue);
+    }
+    .backside-card-1 {
+        padding: 5.5rem 10px 0 10px;
+    }
+    .card-body-1 {
+    	width: 100%;
+    }
+    .backside-card-2 {
+	    width: 100%;
+	    padding: 4rem 10px 0 10px;
+	}
+	.seller-img {
+		width: 50px;
+		height: 50px;
+	}
+	.seller-div {
+    	align-items: center;
+	}
+	.seller-txt{
+		font-size: 13px;
+	}
+	.seller {
+		padding: 6px;
+	}
+	.seller-txt-div {
+		padding-left: 0.5rem !important;
+	}
+	.kia-txt {
+		font-size: 18px;
+	}
+	.newyork-txt {
+		font-size: 7px;
+	}
+	.dol-txt {
+    	font-size: 23px;
+	}
+	.inv-dol {
+		padding-top: 5px;
+	}
+	.bill-img {
+		width: 55px;
+	}
+	.invoice {
+		margin-top: 20px;
+	}
+	.inv-btn {
+		padding-top: 20px !important;
+	}
+	.back-card-3 {
+		padding: 4rem 10px 0 10px;
 	}
 }

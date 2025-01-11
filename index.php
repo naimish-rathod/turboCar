@@ -1,13 +1,13 @@
 <?php 
 include 'header.php';
 ?>
-<!-- Baneer section -->
-<section  >
+								      <!-- Baneer section -->
+<section  class="shadow">
 	<div class="my-container banner pt-0 ">
 		<div class="banner-body radius custom-bg">
 			<div class="sell-car-div text-center">
 				<p>Sell Your Car Today</p>
-				<p class="pt-3">Get a no-obligation quote and decide if selling today is right for you.</p>
+				<p class="pt-3 desc-txt">Get a no-obligation quote and decide if selling today is right for you.</p>
 				<div class="input-grup pt-5">
 					<input type="text" class="bnr-text-input" placeholder="Enter your VIN or licence plate">
 					<button class="get-btn"><b>Get Instant Offer</b></button>
@@ -19,7 +19,7 @@ include 'header.php';
 					<div class="backside-card-1">
 						<div class="outline">
 							<div class="card-body-1">
-						 		<img src="img/Illustration.png">
+						 		<img src="img/Illustration.png" alt="Bill icon" class="bill-img">
 						 		<div class="inv-dol">
 						 			<p class="inv-txt-col">Invoice paid</p>
 						 			<p class="dol-txt">$15,156.99</p>
@@ -57,7 +57,7 @@ include 'header.php';
 								 <div class="seller">
 								 	<div class="seller-div">
 								 		<img src="img/seller.png" alt="Sellet image" class="seller-img">
-								 		<div class="ps-3">
+								 		<div class="ps-3 seller-txt-div">
 								 			<p class="seller-txt">Seller<br><span>Lesile Alexander</span></p>
 								 		</div>
 								 	</div>	
@@ -84,8 +84,8 @@ include 'header.php';
 					</div>
 				</div>
 				<!-- Card 3 -->
-				<div>
-					<div class="backside-card-1">
+				<div class="card-3">
+					<div class="backside-card-1 back-card-3">
 						<div class="outline">
 							<div class="card-body-1">
 								<div class="kia-txt">
@@ -123,11 +123,119 @@ include 'header.php';
 		</div>
 	</div>
 </section>
-<!-- Review section -->
+								      <!-- Review section -->
 <section>
 	<div class="review">
 		<div class="rvu-txt">
 			<p class="text-center">REVIEWS FROM OUR CLIENTS</p>
 		</div>
+		<div class="review-slide">
+			<!-- Card 1 -->
+			<div class="review-card">
+				<div class="review-head">
+					<img src="img/5star.png"> <span>(5.0)</span>
+				</div>
+				<div class="review-body">
+					<p>“The inspection was quick, and the offer matched what I expected.”</p>
+				</div>
+				<div class="d-flex align-items-center review-ftr">
+					<div>
+						<img src="img/wendy.png">
+					</div>
+					<div class="user-nm">
+						<p>Wendy Jillan<br> <span>Colorado</span></p>
+					</div>
+				</div>
+			</div>
+			<!-- card 2 -->
+			<div class="review-card">
+				<div class="review-head">
+					<img src="img/5star.png"> <span>(5.0)</span>
+				</div>
+				<div class="review-body">
+					<p>“The process was incredibly smooth,and i got a great price of my car!”</p>
+				</div>
+				<div class="d-flex align-items-center review-ftr">
+					<div>
+						<img src="img/alex.png">
+					</div>
+					<div class="user-nm">
+						<p>Alex Turner<br> <span>New York</span></p>
+					</div>
+				</div>
+			</div>
+			<!-- card 3 -->
+			<div class="review-card">
+				<div class="review-head">
+					<img src="img/5star.png"> <span>(5.0)</span>
+				</div>
+				<div class="review-body">
+					<p>“The process was incredibly smooth, and I got a great price for my car!”</p>
+				</div>
+				<div class="d-flex align-items-center review-ftr">
+					<div>
+						<img src="img/jenny.png">
+					</div>
+					<div class="user-nm">
+						<p>Jenny Wilson<br> <span>Washington DC</span></p>
+					</div>
+				</div>
+			</div>
+			<!-- card 4 -->
+			<div class="review-card">
+				<div class="review-head">
+					<img src="img/5star.png"> <span>(5.0)</span>
+				</div>
+				<div class="review-body">
+					<p>“They handled everything for me, and i got paid the same day!”</p>
+				</div>
+				<div class="d-flex align-items-center review-ftr">
+					<div>
+						<img src="img/cody.png">
+					</div>
+					<div class="user-nm">
+						<p>Cody Gapko<br> <span>Los Angles</span></p>
+					</div>
+				</div>
+			</div>
+			
+		</div>
 	</div>
 </section>
+								      <!-- Sell your car section -->
+<section class="sell-car">
+	<div class="sell-txt-div text-center">
+		 <p>HOW IT WORKS</p>
+		 <p>Sell your car in 1 day</p>
+		 <p>Recive an instant offer based on your car's condition and market value.</p>
+	</div>
+	<div class="sell-car-step">
+		<div class="scard-1">
+			<div class="round-num">
+				<span>1</span>
+			</div>
+			<div class="scard-body">
+				<p>Describe your vehicle</p>
+				<p>Start with yellow button or call us at 888-335-3325. Have your VIN or license plate handy to get our most accurate offer.</p>
+			</div>
+		</div>
+		<div class="scard-2">
+			<div class="round-num">
+				<span>2</span>
+			</div>
+			<div class="scard-body">
+				<p>Confirm vehicle condition</p>
+				<p>We verify the condition of your vehicle with a quick phone call</p>
+			</div>
+		</div>
+		<div class="scard-3">
+			<div class="round-num">
+				<span>3</span>
+			</div>
+			<div class="scard-body">
+				<p>Get paid</p>
+				<p>We’ll cut you a check, answer any questions, and arrange to take away you vehicle within days.</p>
+			</div>
+		</div>
+	</div>
+</section>								    

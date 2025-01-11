@@ -46,6 +46,9 @@ p{
     border-radius: 26px;
     width: 115px;
 }
+.sign-up {
+	display: none;
+}
 .banner-body {
 	background-color: var(--bg-blue);
 	border-radius: 0 0 20px 20px !important;
@@ -92,7 +95,18 @@ p{
 	background-repeat: no-repeat;
 	height: 500px;
 	width: 100%;
+	position: relative;
 }
+ .banner-body::after{
+		content: '';
+    background: linear-gradient(180deg, rgba(22, 84, 236, 0) 9.42%, #1654EC 100%);
+    position: absolute;
+    bottom: 0;
+    height: 150px;
+    width: 100%;
+    left: 0%;
+    border-radius: 20px;
+} 
 .banner-body {
 	height: 900px;
 }
@@ -261,8 +275,9 @@ p{
 	margin-bottom: 3px;
 }
 .cards {
+	padding: 0 7rem;
 	display: flex;
-	justify-content: space-around;
+	justify-content: space-between;
 	box-sizing: border-box;
 }
 .vin-txt {
@@ -286,11 +301,114 @@ p{
 ================================= */
 .review {
 	background-color: #F8F8F8;
-	padding: 80px 0;
+	padding-bottom: 4em;
+	width: 100%;
+	position: relative;
+}
+.review::before {
+  content: '';
+  position: absolute;
+  width: 404px;
+  height: 328px;
+  top: calc(50% - 328px / 2);
+  background: linear-gradient(270deg,  rgba(248, 248, 248, 0) 4.01%, #F8F8F8 75.87%);
+}
+.review::after {
+  content: '';
+  position: absolute;
+  width: 404px;
+  height: 328px;
+  top: calc(50% - 328px / 2);
+  background: linear-gradient(270deg,  rgba(248, 248, 248, 0) 4.01%, #F8F8F8 75.87%);
+}
+
+.review::before {
+  left: 0;
+}
+
+.review::after {
+  right: 0;
+  transform: scaleX(-1);
 }
 .rvu-txt {
 	font-family: circularStdL;
 	color: var(--col-gray);
 	font-weight: 900;
 	letter-spacing: 1px;
+	padding: 2rem 0;
+}
+.review-slide {
+	display: flex;
+	justify-content: center;
+	gap: 32px;
+}
+.review-card {
+	background-color: var(--col-wh);
+	width: 350px;
+    padding: 20px;
+    border-radius: 13px;
+}
+.review-body {
+	padding-top: 0.8em;
+}
+.review-body p{
+	font-family: 'circularStd';
+	color: #101010;
+}
+.user-nm {
+	padding-left: 1rem;
+	font-family: 'circularStd';
+	color: #101010;
+}
+.user-nm span{
+	color: #666D80;
+	font-family: 'circularStdL';
+	font-weight: bold;
+}
+.review-ftr {
+	padding-top: 1.5rem;
+}
+.review-head span{
+	font-size: 11px;
+}
+/* =============================== 
+		  	Sell your car
+================================= */
+.sell-car{
+	width: 100%;
+	height: 900px;
+	padding: 7rem;
+}
+.sell-txt-div  {
+	font-family: 'circularStdL';
+	color: var(--col-gray);
+}
+.sell-txt-div p:nth-of-type(2) {
+	color: var(--col-blk);
+	font-family: 'circularStd';
+	font-size: 3rem;
+}
+.round-num{
+		display: inline-block;
+    border: 8px solid #DBDBE2;
+    padding: 6px 17px;
+    border-radius: 50%;
+}
+.round-num span{
+	font-size: 20px;
+	font-family: 'circularStd';
+}
+.sell-car-step{
+	display: flex;
+	justify-content: space-between;
+}
+.scard-1,.scard-2,.scard-3 {
+	width: 400px;
+	padding: 15px;
+}
+.scard-body{
+	padding-top: 2rem;
+}
+.scard-body p:first-child{
+	
 }

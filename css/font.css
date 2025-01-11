@@ -14,3 +14,9 @@
 	font-family: inter;
 	src: url(../font/Inter.ttf);
 }
+
+@font-face{
+	font-family: CircularStd-Book;
+	src: url(../font/CircularStd-Medium.ttf) format('truetype');
+	font-style: normal;
+}
