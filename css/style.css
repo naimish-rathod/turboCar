@@ -275,9 +275,10 @@ p{
 	margin-bottom: 3px;
 }
 .cards {
-	padding: 0 7rem;
+/*	padding: 0 7rem;*/
 	display: flex;
-	justify-content: space-between;
+/*	justify-content: space-between;*/
+	justify-content: space-around;
 	box-sizing: border-box;
 }
 .vin-txt {
@@ -393,6 +394,8 @@ p{
     border: 8px solid #DBDBE2;
     padding: 6px 17px;
     border-radius: 50%;
+    margin-left: 1rem;
+    margin-top: 1rem;
 }
 .round-num span{
 	font-size: 20px;
@@ -405,10 +408,25 @@ p{
 .scard-1,.scard-2,.scard-3 {
 	width: 400px;
 	padding: 15px;
+	background-color: #F6F6F6;
+	border-radius: 20px;
 }
-.scard-body{
-	padding-top: 2rem;
+.scard-body {
+    padding-top: 2rem;
+    padding-left: 1rem;
 }
 .scard-body p:first-child{
-	
+	font-family: 'circularStd';
+	color: var(--col-blk);
+	font-size: 1.6rem;
+}
+.scard-body p:last-child{
+	font-family: 'circularStdL';
+	color: var(--col-gray);
+	font-weight: 700;
+	padding-top: 1rem;
+}
+.outline-s{
+	background-color: #DBDBE2;
+	border: none;
 }

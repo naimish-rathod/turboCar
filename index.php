@@ -216,7 +216,29 @@ include 'header.php';
 			</div>
 			<div class="scard-body">
 				<p>Describe your vehicle</p>
-				<p>Start with yellow button or call us at 888-335-3325. Have your VIN or license plate handy to get our most accurate offer.</p>
+				<p>Start with yellow button or call us at <u>888-335-3325.</u> Have your VIN or license plate handy to get our most accurate offer.</p>
+			</div>
+			<div>
+				<div class="outline outline-s">
+							<div class="card-body-1">
+								<div class="kia-txt">
+									<p>2024 KIA Seltos</p>
+								</div>
+								<div class="offer-div">
+									<div class="d-flex justify-content-between">
+										<p class="inv-txt-col">License plate</p>
+										<p class="num-co wig-600">KSP - 0715</p>
+									</div>
+									<div class="d-flex justify-content-between">
+										<p class="inv-txt-col">Location</p>
+										<p class="num-co wig-600">New York</p>
+									</div>
+								</div>
+								<div class="pt-3">
+									<img src="img/welvcar.png" alt="Car image" class="img-fluid">
+								</div>
+							</div>
+						</div>
 			</div>
 		</div>
 		<div class="scard-2">
@@ -227,6 +249,9 @@ include 'header.php';
 				<p>Confirm vehicle condition</p>
 				<p>We verify the condition of your vehicle with a quick phone call</p>
 			</div>
+			<div>
+				
+			</div>
 		</div>
 		<div class="scard-3">
 			<div class="round-num">
@@ -235,6 +260,9 @@ include 'header.php';
 			<div class="scard-body">
 				<p>Get paid</p>
 				<p>We’ll cut you a check, answer any questions, and arrange to take away you vehicle within days.</p>
+			</div>
+			<div>
+				
 			</div>
 		</div>
 	</div>
