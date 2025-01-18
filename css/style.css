@@ -220,7 +220,7 @@ p{
 	text-decoration: underline;
 }
 .dol-txt {
-	font-size: 25px;
+	font-size: 25px !important;
 }
 .card-body-2 {
 	background-color: var(--col-wh);
@@ -258,7 +258,7 @@ p{
 	justify-content: space-between;
 }
 .kia-txt p:last-child {
-	font-weight: 500;
+	font-weight: 400;
 }
 .elipse-bfr::before {
 	content: '|';
@@ -275,11 +275,13 @@ p{
 	margin-bottom: 3px;
 }
 .cards {
-/*	padding: 0 7rem;*/
+	padding: 0 7rem;
 	display: flex;
-/*	justify-content: space-between;*/
-	justify-content: space-around;
+	justify-content: space-between;
+/*	justify-content: space-around;*/
 	box-sizing: border-box;
+	gap: 70px;
+	align-items: baseline;
 }
 .vin-txt {
 	background-color: #F8FAFB;
@@ -295,7 +297,7 @@ p{
     padding-top: 18px;
 }
 .wig-600 {
-	font-weight: 600;
+	font-weight: 500;
 }
 /* =============================== 
 		  Review Section
@@ -339,45 +341,69 @@ p{
 	padding: 2rem 0;
 }
 .review-slide {
-	display: flex;
-	justify-content: center;
-	gap: 32px;
+    display: flex;
+    justify-content: flex-start;  
+    gap: 32px;  
+    overflow-x: auto;  
+    scroll-snap-type: x mandatory;  
+    padding-bottom: 1rem; 
+    user-select: none; 
 }
+
 .review-card {
-	background-color: var(--col-wh);
-	width: 350px;
+    background-color: var(--col-wh);
+    flex: 0 0 350px;  
     padding: 20px;
     border-radius: 13px;
+    scroll-snap-align: start;
 }
+
 .review-body {
-	padding-top: 0.8em;
+    padding-top: 0.8em;
 }
-.review-body p{
-	font-family: 'circularStd';
-	color: #101010;
+
+.review-body p {
+    font-family: 'circularStd';
+    color: #101010;
 }
+
 .user-nm {
-	padding-left: 1rem;
-	font-family: 'circularStd';
-	color: #101010;
+    padding-left: 1rem;
+    font-family: 'circularStd';
+    color: #101010;
 }
-.user-nm span{
-	color: #666D80;
-	font-family: 'circularStdL';
-	font-weight: bold;
+
+.user-nm span {
+    color: #666D80;
+    font-family: 'circularStdL';
+    font-weight: bold;
 }
+
 .review-ftr {
-	padding-top: 1.5rem;
+    padding-top: 1.5rem;
+    display: flex;
+    align-items: center;
 }
-.review-head span{
-	font-size: 11px;
+
+.review-head span {
+    font-size: 11px;
+}
+
+/* Hide scrollbar for a cleaner look */
+.review-slide::-webkit-scrollbar {
+    display: none;
+}
+
+.review-slide {
+    -ms-overflow-style: none;  
+    scrollbar-width: none;  
 }
 /* =============================== 
 		  	Sell your car
 ================================= */
 .sell-car{
 	width: 100%;
-	height: 900px;
+	height: auto;
 	padding: 7rem;
 }
 .sell-txt-div  {
@@ -404,6 +430,8 @@ p{
 .sell-car-step{
 	display: flex;
 	justify-content: space-between;
+	gap: 70px;
+	padding-top: 2.5rem;
 }
 .scard-1,.scard-2,.scard-3 {
 	width: 400px;
@@ -429,4 +457,304 @@ p{
 .outline-s{
 	background-color: #DBDBE2;
 	border: none;
+}
+.pad-b-0{
+	padding-bottom: 0 !important;
+}
+.bdr-rad-btm-0{
+	border-radius: 17px 17px 0 0 !important;
+}
+.john-delton {
+	background-color: #EDF1F9;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	padding: 7px;
+  border-radius: 40px;
+}
+.john-txt-div {
+	display: flex;
+	align-items: flex-start;
+	flex-direction: column;
+}
+.john-txt-div p:first-child{
+	color: var(--col-gray);
+	font-size: 0.6em;
+}
+.john-txt-div p:last-child{
+	color: var(--col-blk);
+	font-size: 1em;
+}
+.verify-txt {
+	font-size: 1.5em;
+	font-weight: 400;
+	padding-bottom: 1.5rem;
+}
+.vrfy-data-list{
+	display: flex;
+	justify-content: space-between;
+}
+.check-list{
+	display: flex;
+	flex-direction: column;
+	gap: 8px;
+	padding-top: 2rem;
+}
+.scard-ftr {
+	height: 296px;
+	overflow: hidden;
+}
+.pt-6{
+	padding-top: 4.5rem !important;
+}
+.vrfy-data-list p{
+	color: var(--col-gray);
+	font-family: 'circularStdL';
+	font-weight: 600;
+}
+.inv-txt-col-2 {
+	color: var(--col-blk);
+	font-size: 1.3em;
+}
+.invoice-new-bg {
+	background-color: #EDF1F9;
+	margin-top: 42px;
+	border-radius: 20px;
+	padding: 14px;
+}
+/* =============================== 
+		  	Map section
+================================= */
+.map-div {
+	/*background-image: url(../img/mapbg.svg);
+	background-position: bottom 35% center;
+	background-size: 30%;
+	background-repeat: no-repeat;*/
+	background-color: #010130;
+	border-radius: 20px;
+	padding: 7rem;
+	margin: 0 0 20px 0;
+}
+.map-desc p {
+	color: var(--col-wh);
+	font-family: 'circularStdL';
+	font-weight: 400;
+	color: #CECECE;
+}
+.map-desc p:nth-of-type(2) {
+	font-family: 'circularStd';
+	font-size: 3rem;
+	padding: 20px 0 16px 0;
+	color: var(--col-wh);
+}
+.map-numbers {
+    display: flex;
+    text-align: center;
+    color: var(--col-wh);
+    font-family: 'circularStdL';
+    justify-content: center;
+    gap: 5%;
+    padding-top: 4rem;
+    position: relative;
+}
+.map-txt p:first-child {
+	font-family: 'circularStd';
+	font-size: 3rem;
+
+}
+.map-txt p:last-child {
+	color: #CECECE;
+}
+/*.myhr::after {
+    content: '';
+    position: absolute;
+    width: 0px;
+    height: 66px;
+    background: #4A4A8A;
+    right: 41%;
+    top: 53%;
+    padding: 1px;
+}
+.myhr::before {
+    content: '';
+    position: absolute;
+    width: 0px;
+    height: 66px;
+    background: #4A4A8A;
+    right: 57%;
+    top: 53%;
+    padding: 1px;
+}*/
+.vertical-line {
+    border-left: 2px solid #4A4A8A;
+}
+.getstarted-btn {
+	border-radius: 38px;
+	padding: 9px 42px 9px;
+	background-color: var(--col-wh);
+	color: var(--col-blk);
+	border: none;
+	font-family: 'circularStd';
+}
+.started-txt {
+	color: #CECECE;
+	font-family: 'circularStdL';
+	padding: 3rem 0 2.5rem 0;
+}
+/* =============================== 
+	   Why choose us section
+================================= */
+.why-us {
+	background-color: var(--col-wh);
+	height: auto;
+	padding: 7rem;
+}
+.here-text-1 {
+	font-family: 'circularStdL';
+	color: #666D80;
+	font-size: 0.9rem;
+	padding-bottom: 2rem;
+}
+.here-text-1 p:nth-of-type(2) {
+	color: var(--col-blk);
+	font-family: 'circularStd';
+	font-size: 3rem;
+}
+.why-us-card {
+    background-color: #F6F6F6;
+    width: 455px;
+    padding: 70px 15px 0 15px;
+    border-radius: 17px 17px 0 0;
+}
+.why-txt {
+	font-size: 1.3rem;
+	font-weight: 400;
+}
+.seller-2 {
+	padding: 0;
+	background-color: var(--col-wh);
+	padding-top: 2rem;
+}
+.seller-txt-div-2 p:first-child {
+	color: var(--col-gray);
+}
+.seller-txt-div-2 p:last-child {
+	color: var(--col-blk);
+}
+.seller-txt-div-2 {
+	display: flex;
+	flex-direction: column;
+	align-items: flex-start;
+}
+.kia-txt-2 {
+	font-size: 1.1rem;
+}
+.kia-txt-2 p:first-child,
+.kia-txt-2 p:last-child {
+	font-weight: 500 !important;
+}
+.newyork-txt-2 {
+	font-size: 11px;
+}
+.why-us-div {
+	width: 555px;
+	margin-top: auto;
+}
+.why-us-lists-item {
+	display: flex;
+	gap: 25px;
+	font-family: 'circularStdL';
+	font-weight: bold;
+}
+.why-us-lists a {
+	text-decoration: none;
+	color: #255FF0;
+}
+.why-us-lists p:first-child {
+	color: var(--col-blk);
+	font-size: 1.5rem;
+	font-family: 'circularStd';
+	font-weight: normal;
+}
+.why-us-lists p:nth-of-type(2) {
+	color: var(--col-gray);
+}
+.why-us-lists {
+	display: flex;
+	flex-direction: column;
+	gap: 60px;
+}
+/* =============================== 
+	   		 FAQ's
+================================= */
+.faq {
+	background-color: #F8F8F8;
+	padding: 7rem;
+	font-family: 'circularStdL';
+	color: var(--col-gray);
+}
+.faq p:nth-of-type(2) {
+	color: var(--col-blk);
+	font-family: 'circularStd';
+	font-size: 3rem;
+	padding: 13px 0 8px 0;
+}
+.panel {
+	background-color: #ffffff;
+    padding: 13px;
+    border-radius: 20px;
+    width: 52em;
+}
+.panel-group {
+	display: flex;
+	justify-content: center;
+	flex-direction: column;
+	align-items: center;
+	gap: 20px;
+}
+.panel-heading {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+.acco-btn {
+	padding: 2px !important;
+    border-radius: 100% !important;
+}
+.acco-btn img {
+	width: 40px;
+}
+.panel-title {
+	font-family: 'circularStd';
+	font-size: 1.3rem;
+	color: var(--col-blk);
+}
+.panel-body {
+	padding-left: 1rem;
+    font-size: 1.1rem;
+}
+.questions {
+	padding-top: 3rem;
+}
+/* =============================== 
+	   		 Blog
+================================= */ 
+.blog {
+	background-color: var(--col-wh);
+	padding: 7rem;
+	height: 100vh;
+}
+.blog-heading-txt{
+
+}
+.blog-heading {
+	display: flex;
+	justify-content: space-between;
+}
+.cutom-card {
+	width: calc(30% - 20px);
+}
+.blog-body {
+	display: flex;
+	justify-content: space-around;
 }

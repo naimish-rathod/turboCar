@@ -15,7 +15,7 @@
 <!-- Header -->
 <div class="my-container">		
 <header class="bg-col radius nav-header">
-	<nav class="navbar navbar-expand-lg">
+	<nav class="navbar navbar-expand-xl">
 		<div class="container-fluid pt-3 pb-3 pe-0 ps-0">
 			<a href="#" class="navbar-brand ps-5 me-0"><img src="img/logo-7.svg"></a>
 			<!-- Hamburg icon -->

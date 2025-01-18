@@ -1,37 +1,6 @@
-/* ==================================
-		Media for medium screen
-===================================*/
-@media only screen and (max-width: 1024px) { 
-/* ==================================
-		Banner section
-===================================*/
-	.banner-body {
-		height: 100%;
-	}
-	.cards {
-		flex-wrap: wrap;
-	}
-	.backside-card-1 {
-  		  padding: 5.5rem 0 0 0;
-	}
-	.card-3{
-		padding-bottom: 1rem;
-	}
-	.get-btn {
-		padding: 13px 25px 13px;
-	}
-	.bnr-text-input {
-   		width: 41rem;
-   	}
-   	.custom-bg {
-    	background: url(../img/maskgroup.png) no-repeat top -18% center,
-    	 url(../img/Background.png) no-repeat bottom center;
-   	 	background-size: auto, 100% 100%;
-	}
-	.banner-body {
-    	background-color: var(--bg-blue);
-    }
-    .sign-up-div {
+/*For the navbar*/
+@media only screen and (max-width: 1200px) {
+	.sign-up-div {
     	display: none;
     }
     .navbar-toggler-icon {
@@ -67,12 +36,106 @@
 }
 
 /* ==================================
+		Media for medium screen
+===================================*/
+@media only screen and (max-width: 1024px) { 
+								/* ==================================
+										Banner section
+								===================================*/
+	.cards { 
+	   	display: flex;
+	   	justify-content: space-around;
+	   	box-sizing: border-box;
+	    gap: 0;
+	    padding: 0;
+	}
+	.banner-body {
+		height: 100%;
+	}
+	.cards {
+		flex-wrap: wrap;
+	}
+	.backside-card-1 {
+  		padding: 5.5rem 0 0 0;
+	}
+	.card-3{
+		padding-bottom: 1rem;
+	}
+	.get-btn {
+		padding: 13px 25px 13px;
+	}
+	.bnr-text-input {
+   		width: 41rem;
+   	}
+   	.custom-bg {
+    	background: url(../img/maskgroup.png) no-repeat top -18% center,
+    	 url(../img/Background.png) no-repeat bottom center;
+   	 	background-size: auto, 100% 100%;
+	}
+	.banner-body {
+    	background-color: var(--bg-blue);
+    }
+    
+								/* =============================== 
+										  	Sell your car
+								================================= */
+	.sell-car-step {
+	    display: flex;
+	    justify-content: space-around;
+	    flex-wrap: wrap;
+	}
+	.sell-car {
+	    padding: 3rem;
+	}
+							/* =============================== 
+										  	Review
+							================================= */
+	.review::before {
+		width: 200px;
+	}
+	.review::after {
+		width: 200px;
+	}
+							/* =============================== 
+										Why us section
+							================================= */
+	.why-us {
+		padding: 3rem;
+	}
+	.row {
+		gap: 20px;
+	}
+	.why-us-card {
+		width: auto;
+	}
+	.why-us-lists {
+		gap: 40px;
+	}
+	.why-us-lists-item img{
+		width: 60px;
+	}
+							/* =============================== 
+										FAQ's section
+							================================= */
+	.faq {
+		padding: 3rem;
+	}
+	.panel {
+		width: 40em;
+	}
+	.faq p:nth-of-type(2) { 
+		font-size: 2rem;
+	}
+
+}
+
+/* ==================================
 		Media for tablet
 ===================================*/
 @media only screen and (max-width: 768px) {
-/* ==================================
-		Banner section
-===================================*/
+								/* ==================================
+										Banner section
+								===================================*/
 	.sell-car-div p:first-child {
 	    font-size: 3.3rem;
 	}
@@ -92,6 +155,58 @@
     .bnr-text-input {
         width: 33rem;
     }
+								/* ==================================
+										review section
+								===================================*/
+    .review-slide {
+        gap: 24px;  
+    }
+    .review-card {
+        width: 300px;  
+    }
+    .review-body p {
+        font-size: 0.9rem; 
+    }
+								/* ==================================
+											 Map section
+								===================================*/
+	.map-desc p:nth-of-type(2) {
+    	font-size: 2.3rem;
+	}
+	.map-desc p:first-child,
+	.map-desc p:last-child {
+    	font-size: 12px;
+	}
+	.map-txt p:first-child {
+		font-size: 2rem;
+	}
+	.map-txt p:last-child {
+		font-size: 0.8rem;
+	}
+	.started-txt {
+		font-size: 12px;
+	}
+							/* =============================== 
+										Why us section
+							================================= */
+	.col-sm {
+        flex: 0 0 70%;
+    }
+    .row {
+    	justify-content: center;
+    }
+    .why-us-div {
+    	padding-top: 3rem;
+    }
+							/* =============================== 
+										FAQ's section
+							================================= */
+	.panel {
+		width: 35em;
+	}
+	.panel-title {
+		font-size: 1.3rem;
+	}
 }
 /* ==================================
 		Media for mobile phone
@@ -162,8 +277,7 @@
 	    padding: 4rem 10px 0 10px;
 	}
 	.seller-img {
-		width: 50px;
-		height: 50px;
+		width: 40px;
 	}
 	.seller-div {
     	align-items: center;
@@ -201,4 +315,186 @@
 	.back-card-3 {
 		padding: 4rem 10px 0 10px;
 	}
+								/* =============================== 
+										  	Sell your car
+								================================= */
+	.scard-ftr {
+    	height: 200px;
+    }
+    .round-num{
+    	padding: 2px 13px;
+    }
+    .scard-body{
+    	padding-top: 1rem;
+    }
+    .scard-body p:first-child {
+    	font-size: 1.3rem;
+    }
+    .kia-txt {
+        font-size: 15px;
+    }
+    .inv-txt-col, .num-co {
+    	font-size: 12px;
+    }
+    .offer-div {
+    	gap: 5px;
+    	padding-top: 9px;
+    }
+    .verify-txt {
+    	font-size: 1rem;
+    	padding-bottom: 1rem;
+    }
+    .john-delton {
+    	padding: 5px;
+    }
+    .john-delton img{
+    	width: 30px;
+    	height: 30px;
+    }
+    .john-delton p:first-child {
+    	font-size: 0.5em;
+    }
+    .john-delton p:last-child{
+    	font-size: 0.9em;
+    }
+    .vrfy-data-list {
+    	align-items: center;
+    }
+    .vrfy-data-list p {
+    	font-size: 11px;
+    }
+    .check-list {
+    	gap: 0;
+    	padding-top: 1rem;
+    }
+    .vrfy-data-list img {
+    	width: 15px;
+    }
+    .sell-car {
+        padding: 2rem;
+    }
+								/* ==================================
+										review section
+								===================================*/
+	.review-card {
+	    background-color: var(--col-wh);
+	    flex: 0 0 298px;
+	    padding: 16px;
+	    border-radius: 13px;
+	    scroll-snap-align: center;
+	}
+	.review::before {
+		width: 60px;
+	}
+	.review::after {
+        width: 60px;
+    }
+								/* ==================================
+											 Map section
+								===================================*/
+	.map-div {
+		padding: 2rem;
+	}
+	.map-desc p:first-child,
+	.map-desc p:last-child {
+		font-size: 10px;
+	}
+	.map-desc p:nth-of-type(2) {
+		font-size: 1.2rem;
+		padding: 9px 0 5px 0;
+	}
+	.map-txt p:first-child {
+        font-size: 1rem;
+    }
+    .map-txt p:last-child {
+        font-size: 0.4rem;
+    }
+    .map-numbers{
+    	padding-top: 1.5rem;
+    }
+    .started-txt {
+        font-size: 10px;
+        padding: 1rem 0 0.5rem 0;
+    }
+    .map-img {
+    	padding-top: 2rem !important;
+    }
+    .getstarted-btn { 
+	    padding: 4px 20px 4px;
+	    font-size: 10px;
+	}
+	.vertical-line {
+    	border-left: 1px solid #4A4A8A;
+	}
+							/* =============================== 
+										Why us section
+							================================= */
+	.col-sm {
+        flex: unset;
+    }
+    .why-us {
+        padding: 2rem;
+    }
+    .why-us-lists a {
+    	font-size: 0.9rem;
+	}
+	.why-us-lists p:first-child {
+   	 	font-size: 1.4rem;
+   	}
+   	.why-us-lists-item img {
+        width: 50px;
+    }
+    .why-us-lists a {
+    	font-size: 0.9rem;
+    }
+    .here-text-1 {
+    	font-size: 0.7rem;
+    }
+    .here-text-1 p:nth-of-type(2) {
+    	font-size: 2rem;
+    }
+    .seller-txt-div-2 {
+    	font-size: 11px;
+    	padding-left: 0.5rem !important;
+    }
+    .newyork-txt {
+    	font-size: 7px;
+    	align-items: center;
+    }
+    .kia-txt {
+        font-size: 13px;
+    }
+    .why-txt{
+    	font-size: 1rem;
+    }
+    .seller-2 {
+		padding: 0;
+		padding-top: 1.5rem !important;
+	}
+	.car-dtl {
+		padding: 1rem 0 !important;
+	}
+							/* =============================== 
+										FAQ's section
+							================================= */
+	.panel {
+		padding: 7px 12px;
+		width: 17em;
+	}
+	.panel-title {
+		font-size: 13px;
+	}
+	.acco-btn img {
+		width: 27px;
+	}
+	.faq-txt {
+		font-size: 0.7rem;
+	}
+	.faq p:nth-of-type(2) {
+        font-size: 1.2rem;
+    }
+    .panel-body {
+    	font-size: 0.8rem;
+    }
+
 }
