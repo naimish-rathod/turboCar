@@ -731,9 +731,7 @@ p{
 ================================= */ 
 .blog {
   background-color: var(--col-wh);
-  padding: 7rem 5%; /* Add horizontal padding for responsiveness */
-  height: auto;
-  overflow: hidden;
+  padding: 7rem 5%;
 }
 
 .blog-heading {
@@ -751,9 +749,13 @@ p{
   justify-content: space-between;
   gap: 50px;  
   flex-wrap: nowrap;  
-  overflow: hidden;  
+  overflow: auto;  
+  scroll-behavior: smooth;
+  transition: all .5s;
 }
-
+.blog-body::-webkit-scrollbar {
+	display: none;
+}
 .my-card {
     flex: 0 0 calc(25% - 50px);
     max-width: calc(25% - 50px);

@@ -568,12 +568,12 @@ include 'header.php';
 				<p>Learn the essentials for selling your car successfully</p>
 			</div>
 		<div class="blog-btn">
-			<button class="btn p-0"><img src="img/leftarr.png"></button>
-			<button class="btn p-0"><img src="img/rightarr.png"></button>
+			<button class="btn p-0" id="prevarr"><img src="img/leftarr.png"></button>
+			<button class="btn p-0" id="nextarr"><img src="img/rightarr.png"></button>
 		</div>
 	</div>
 	<div class="blog-body">
-		<!-- card 1		 -->
+		<!-- card 1	 -->
  		<div class="my-card">
  			<img src="img/blog-1.png">
  			<div class="my-card-txt">
@@ -591,7 +591,7 @@ include 'header.php';
  				<p>Get your vehicle ready for winter, summer, and everything in between with these seasonal maint...</p>
  			</div>
  		</div>
-		<!-- card 3		 -->
+		<!-- card 3	-->
  		<div class="my-card">
  			<img src="img/blog-3.png">
  			<div class="my-card-txt">
@@ -600,7 +600,7 @@ include 'header.php';
  				<p>Keep your car in top condition with a simple, easy-to-follow maintenance routine.</p>
  			</div>
  		</div>
-		<!-- card 4		 -->
+		<!-- card 4	-->
  		<div class="my-card">
  			<img src="img/blog-3.png">
  			<div class="my-card-txt">

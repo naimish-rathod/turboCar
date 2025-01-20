@@ -583,6 +583,22 @@
         flex: 0 0 100%;
         max-width: 100%;
     }
+    .blog-heading-txt p:nth-of-type(2) {
+        font-size: 1.5rem;
+    }
+    .here-text-1 {
+        font-size: 0.6rem;
+    }
+    .blog-btn {
+    	gap: 6px;
+    }
+    .blog-btn img {
+    	width: 25px;
+    }
+    .blog-heading {
+    	margin: 0;
+    }
+
 							/* =============================== 
 										Footer section
 							================================= */
