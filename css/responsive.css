@@ -126,7 +126,52 @@
 	.faq p:nth-of-type(2) { 
 		font-size: 2rem;
 	}
-
+							/* =============================== 
+										Blog section
+							================================= */
+	.blog {
+		padding: 3rem;
+	}
+	.blog-heading-txt p:nth-of-type(2){
+		font-size: 2rem;
+	}
+	.blog-btn img {
+		width: 40px;
+	}
+	.my-card-txt p:nth-of-type(2) {
+		font-size: 1.1rem;
+	}
+	.my-card-txt {
+		font-size: 0.7rem;
+	}
+	.my-card {
+    	flex: 0 0 calc(35% - 50px);
+    	max-width: calc(35% - 50px);
+	}
+							/* =============================== 
+										Footer section
+							================================= */
+	.footer {
+		padding: 3rem;
+	}
+	.site-logo-2 img{
+		width: 180px;
+	}
+	.icons-list img {
+		width: 40px;
+	}
+	.social-txt , .footer-bottom, .footer-items{
+		font-size: 0.8rem;
+	}
+	.footer-items {
+		gap: 2rem;
+	}
+	.t-n-c-txt {
+		padding-left: 1rem;
+	}	
+	.social-icons {
+		padding-left: 2rem;
+	}					
 }
 
 /* ==================================
@@ -207,6 +252,41 @@
 	.panel-title {
 		font-size: 1.3rem;
 	}
+							/* =============================== 
+										Blog section
+							================================= */
+	.my-card {
+        flex: 0 0 calc(54% - 50px);
+        max-width: calc(54% - 50px);
+    }
+							/* =============================== 
+										Footer section
+							================================= */
+	.site-logo-2 img {
+        width: 140px;
+    }						
+    .icons-list img {
+        width: 30px;
+    }
+    .icons-list {
+    	padding-top: 2rem;
+    	gap: 1rem;
+    }
+    .social-txt, .footer-bottom, .footer-items {
+        font-size: 0.6rem;
+    }
+    .footer-items {
+    	gap: 1rem;
+    }
+    .social-icons img {
+    	width: 15px;
+    }
+    .footer-bottom {
+    	border-top: 1px solid #353535
+    }
+    .footer-top {
+    	padding-bottom: 3rem;
+    }
 }
 /* ==================================
 		Media for mobile phone
@@ -496,5 +576,31 @@
     .panel-body {
     	font-size: 0.8rem;
     }
-
+							/* =============================== 
+										Blog section
+							================================= */
+	.my-card {
+        flex: 0 0 100%;
+        max-width: 100%;
+    }
+							/* =============================== 
+										Footer section
+							================================= */
+	.footer-top {
+		flex-wrap: wrap;
+	    justify-content: center;
+	    padding-bottom: 2rem;
+	}
+	.footer-items {
+		flex-wrap: wrap;
+		justify-content: center;
+		padding-top: 2rem;
+	}	
+	.footer-bottom {
+		padding-top: 1.5rem;
+	}
+	.social-icons {
+		gap: 10px;
+		align-items: baseline;	
+	}				
 }

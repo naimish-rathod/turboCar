@@ -3,7 +3,7 @@
 		<!-- logo div -->
 		<div>
 			<div>
-				<div><img src="img/logo2.png"></div>
+				<div class="site-logo-2"><img src="img/logo2.png"></div>
 			</div>
 			<div class="icons-list">
 				<div class="d-flex">
@@ -37,18 +37,18 @@
 		</div>
 		<div class="footer-items">
 			<div class="shop">
-				<h4>Shop</h4>
+				<h5>Shop</h5>
 				<p>Browse by Category</p>
 				<p>View All inventory</p>
 				<p>Find a store</p>
 			</div>
 			<div class="sell">
-				<h4>Sell/Trade</h4>
+				<h5>Sell/Trade</h5>
 				<p>Get an Online offer</p>
 				<p>How it Works</p>
 			</div>
 			<div class="about">
-				<h4>About</h4>
+				<h5>About</h5>
 				<p>About Us</p>
 				<p>Contact Us</p>
 				<p>Social Responsibility</p>
@@ -56,7 +56,7 @@
 				<p>Investor Relations</p>
 			</div>
 			<div class="more">
-				<h4>More</h4>
+				<h5>More</h5>
 				<p>Service & Repairs</p>
 				<p>FAQ & Support</p>
 				<p>Buying Online</p>
@@ -70,7 +70,7 @@
 		</div>
 		<div class="d-flex">
 			<p>Privacy Policy</p>
-			<p class="ps-5">Terms & Condition</p>
+			<p class="t-n-c-txt">Terms & Condition</p>
 			<div class="social-icons">
 				<div>
 					<img src="img/fbi.png">

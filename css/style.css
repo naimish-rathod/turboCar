@@ -299,6 +299,7 @@ p{
 .wig-600 {
 	font-weight: 500;
 }
+
 /* =============================== 
 		  Review Section
 ================================= */
@@ -324,11 +325,9 @@ p{
   top: calc(50% - 328px / 2);
   background: linear-gradient(270deg,  rgba(248, 248, 248, 0) 4.01%, #F8F8F8 75.87%);
 }
-
 .review::before {
   left: 0;
 }
-
 .review::after {
   right: 0;
   transform: scaleX(-1);
@@ -349,51 +348,42 @@ p{
     padding-bottom: 1rem; 
     user-select: none; 
 }
-
 .review-card {
     background-color: var(--col-wh);
     flex: 0 0 350px;  
     padding: 20px;
     border-radius: 13px;
-    scroll-snap-align: start;
+    scroll-snap-align: center;
 }
-
 .review-body {
     padding-top: 0.8em;
 }
-
 .review-body p {
     font-family: 'circularStd';
     color: #101010;
 }
-
 .user-nm {
     padding-left: 1rem;
     font-family: 'circularStd';
     color: #101010;
 }
-
 .user-nm span {
     color: #666D80;
     font-family: 'circularStdL';
     font-weight: bold;
 }
-
 .review-ftr {
     padding-top: 1.5rem;
     display: flex;
     align-items: center;
 }
-
 .review-head span {
     font-size: 11px;
 }
-
 /* Hide scrollbar for a cleaner look */
 .review-slide::-webkit-scrollbar {
     display: none;
 }
-
 .review-slide {
     -ms-overflow-style: none;  
     scrollbar-width: none;  
@@ -740,50 +730,72 @@ p{
 	   		 Blog
 ================================= */ 
 .blog {
-	background-color: var(--col-wh);
-	padding: 7rem;
-	height: 100%;
+  background-color: var(--col-wh);
+  padding: 7rem 5%; /* Add horizontal padding for responsiveness */
+  height: auto;
+  overflow: hidden;
 }
+
 .blog-heading {
-	display: flex;
-	justify-content: space-between;
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 2rem;
 }
-.cutom-card {
-	width: calc(30% - 20px);
+
+.blog-heading-txt p {
+  margin: 0;
 }
+
 .blog-body {
-	display: flex;
-	justify-content: space-around;
-	gap: 70px;
+  display: flex;
+  justify-content: space-between;
+  gap: 50px;  
+  flex-wrap: nowrap;  
+  overflow: hidden;  
 }
+
 .my-card {
-	width: 411px;
+    flex: 0 0 calc(25% - 50px);
+    max-width: calc(25% - 50px);
 }
-.my-card img{
-	width: 100%;
+
+.my-card img {
+  width: 100%;
+  border-radius: 8px; 
 }
+
 .my-card-txt {
-	font-family: 'circularStdL';
-	color: var(--col-gray);
-	font-size: 0.8rem;
+  font-family: 'circularStdL', sans-serif;
+  color: var(--col-gray);
+  font-size: 0.9rem;
+  padding: 1rem;
 }
+
 .my-card-txt p:nth-of-type(2) {
-	color: var(--col-blk);
-	font-family: 'circularStd';
-	font-size: 1.5rem;
-	line-height: 1.2;
-	padding: 0.5rem 0;
+  color: var(--col-blk);
+  font-family: 'circularStd', sans-serif;
+  font-size: 1.5rem;
+  line-height: 1.2;
+  padding: 0.5rem 0;
+  font-weight: bold;
 }
-.dot::after {																			
-	content: '';
-}
+
 .my-card-txt span {
-	 color: #D9D9D9;
-	 padding: 0 6px;
+  color: #D9D9D9;
+  padding: 0 6px;
 }
+
 .blog-btn {
-	align-self: end;
-	padding-bottom: 2rem;
+  align-self: end;
+  padding-bottom: 2rem;
+  display: flex;
+  gap: 20px;
+}
+
+.blog-btn .btn {
+  border: none;
+  background: transparent;
+  cursor: pointer;
 }
 /* =============================== 
 	   		 footer
@@ -791,6 +803,7 @@ p{
 .footer {
 	padding: 7rem;
 	background-color: #091315;
+	height: 100%;
 }
 .social-txt {
 	color: var(--col-wh);
@@ -815,7 +828,7 @@ p{
 	display: flex;
 	color: var(--col-wh);
 	font-family: 'circularStd';
-	gap: 6rem;
+	gap: 4rem;
 }
 .footer-items p {
 	font-family: circularStdL;
@@ -831,6 +844,10 @@ p{
 }
 .social-icons {
 	display: flex;
+	align-items: center;
 	gap: 20px;
+	padding-left: 3rem;
+}
+.t-n-c-txt {
 	padding-left: 3rem;
 }

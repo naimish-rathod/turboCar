@@ -562,17 +562,18 @@ include 'header.php';
 								      <!-- Blog section -->								      
 <section class="blog">
 	<div class="blog-heading">
-		<div class="here-text-1">
+		<div class="here-text-1 blog-heading-txt">
 				<p>Blogs</p>
 				<p>Latest Blogs</p>
 				<p>Learn the essentials for selling your car successfully</p>
 			</div>
 		<div class="blog-btn">
-			<button class="btn"><img src="img/leftarr.png"></button>
-			<button class="btn"><img src="img/rightarr.png"></button>
+			<button class="btn p-0"><img src="img/leftarr.png"></button>
+			<button class="btn p-0"><img src="img/rightarr.png"></button>
 		</div>
 	</div>
 	<div class="blog-body">
+		<!-- card 1		 -->
  		<div class="my-card">
  			<img src="img/blog-1.png">
  			<div class="my-card-txt">
@@ -581,7 +582,8 @@ include 'header.php';
  				<p>Navigate the car buying process with confidence using these expert tips for first-time buyers</p>
  			</div>
  		</div>
- 		<div class="my-card">
+		<!-- card 2 -->
+ 		<div class="my-card"> 
  			<img src="img/blog-2.png">
  			<div class="my-card-txt">
  				<p class="pt-3">29 Jan 2024<span>•</span>10 mins read</p>
@@ -589,6 +591,7 @@ include 'header.php';
  				<p>Get your vehicle ready for winter, summer, and everything in between with these seasonal maint...</p>
  			</div>
  		</div>
+		<!-- card 3		 -->
  		<div class="my-card">
  			<img src="img/blog-3.png">
  			<div class="my-card-txt">
@@ -597,6 +600,15 @@ include 'header.php';
  				<p>Keep your car in top condition with a simple, easy-to-follow maintenance routine.</p>
  			</div>
  		</div>
+		<!-- card 4		 -->
+ 		<div class="my-card">
+ 			<img src="img/blog-3.png">
+ 			<div class="my-card-txt">
+ 				<p class="pt-3">30 Jan 2024<span>•</span>10 mins read</p>
+ 				<p>The Ultimate Guide to Routine Car Maintenance</p>
+ 				<p>Keep your car in top condition with a simple, easy-to-follow maintenance routine.</p>
+ 			</div>
+ 		</div> 		
 	</div>
 </section>
 								      <!-- Footer section -->								      
