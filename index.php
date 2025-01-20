@@ -567,41 +567,39 @@ include 'header.php';
 				<p>Latest Blogs</p>
 				<p>Learn the essentials for selling your car successfully</p>
 			</div>
-		<div>
-			<button class="btn"><img src="img/btnleftarr.png"></button>
-			<button></button>
+		<div class="blog-btn">
+			<button class="btn"><img src="img/leftarr.png"></button>
+			<button class="btn"><img src="img/rightarr.png"></button>
 		</div>
 	</div>
 	<div class="blog-body">
- 		<div class="card cutom-card">
- 			<div class="card-body">
- 				<img src="img/blog-1.png">
- 				<p>30 Jan 2024 . 10 min read</p>
- 			</div>
- 			<div class="card-footer">
- 				<p>Essential Tips for Frist-Time Car Buyers</p>
+ 		<div class="my-card">
+ 			<img src="img/blog-1.png">
+ 			<div class="my-card-txt">
+ 				<p class="pt-3">30 Jan 2024<span>•</span>10 mins read</p>
+ 				<p>Essential Tips for First-Time Car Buyers</p>
  				<p>Navigate the car buying process with confidence using these expert tips for first-time buyers</p>
  			</div>
  		</div>
- 		<div class="card cutom-card">
- 			<div class="card-body">
- 				<img src="img/blog-1.png">
- 				<p>30 Jan 2024 . 10 min read</p>
- 			</div>
- 			<div class="card-footer">
- 				<p>Essential Tips for Frist-Time Car Buyers</p>
- 				<p>Navigate the car buying process with confidence using these expert tips for first-time buyers</p>
+ 		<div class="my-card">
+ 			<img src="img/blog-2.png">
+ 			<div class="my-card-txt">
+ 				<p class="pt-3">29 Jan 2024<span>•</span>10 mins read</p>
+ 				<p>Preparing Your Car for Seasonal Changes</p>
+ 				<p>Get your vehicle ready for winter, summer, and everything in between with these seasonal maint...</p>
  			</div>
  		</div>
- 		<div class="card cutom-card">
- 			<div class="card-body">
- 				<img src="img/blog-1.png">
- 				<p>30 Jan 2024 . 10 min read</p>
- 			</div>
- 			<div class="card-footer">
- 				<p>Essential Tips for Frist-Time Car Buyers</p>
- 				<p>Navigate the car buying process with confidence using these expert tips for first-time buyers</p>
+ 		<div class="my-card">
+ 			<img src="img/blog-3.png">
+ 			<div class="my-card-txt">
+ 				<p class="pt-3">30 Jan 2024<span>•</span>10 mins read</p>
+ 				<p>The Ultimate Guide to Routine Car Maintenance</p>
+ 				<p>Keep your car in top condition with a simple, easy-to-follow maintenance routine.</p>
  			</div>
  		</div>
 	</div>
 </section>
+								      <!-- Footer section -->								      
+<?php 
+include 'footer.php';
+?>
